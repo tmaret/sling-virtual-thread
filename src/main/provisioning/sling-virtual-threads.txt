@@ -1,0 +1,10 @@
+[feature name=sling]
+
+[artifacts]
+    org.apache.sling/org.apache.sling.starter/11/slingstart
+    org.apache.felix/org.apache.felix.http.jetty/4.0.21-VTP-202008151559-34d9781
+
+[configurations]
+    org.apache.felix.http
+        org.apache.felix.http.jetty.threadpool.max=I"2147483647"
+
