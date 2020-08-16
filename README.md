@@ -26,7 +26,7 @@ The [slingstart-maven-plugin](https://sling.apache.org/components/slingstart-mav
 
 Have a look at the [provisioning model files](src/main/provisioning) to see what OSGi bundles and configurations are used. The virtual thread pool support is added via a custom build of the Apache Felix org.apache.felix.http.jetty [project](https://github.com/tmaret/felix-dev/tree/unbounded-virtual-thread-pool).
 
-# Play
+# Play
 
 Once your Sling instance is running, you should be able to access it on http://localhost:9090 and play with it.
 
